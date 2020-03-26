@@ -6,7 +6,7 @@ _This  is a challenge by IEEE  AJCE_ :teda:
  
  **HARDWARE COMPONENTS REQUIRED**
  ``` 
-    ARDUINO UNO
+    Arduino uno
     Ultrasonic sensor
     Servo motor 
  ```
