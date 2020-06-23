@@ -37,15 +37,14 @@ distance = dis();
     digitalWrite(ledPin, HIGH);
     digitalWrite(motorPin, HIGH);
     digitalWrite(musicPin, HIGH);
-    while (distance > 100)
+  }
+      while (distance > 100)
     {
       digitalWrite(ledPin, LOW);
     digitalWrite(motorPin, LOW);
     digitalWrite(musicPin, LOW);
       distance = dis();
     }
-  }
-  
 }
 int dis()
 {
