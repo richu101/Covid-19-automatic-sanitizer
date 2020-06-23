@@ -49,6 +49,7 @@ distance = dis();
       distance = dis();
     }
 }
+}
 int dis()
 {
   digitalWrite(trigPin, LOW);
