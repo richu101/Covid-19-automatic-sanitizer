@@ -37,8 +37,11 @@ distance = dis();
     digitalWrite(ledPin, HIGH);
     digitalWrite(motorPin, HIGH);
     digitalWrite(musicPin, HIGH);
-  }
-      while (distance > 100)
+    delay(1500);
+    digitalWrite(ledPin, LOW);
+    digitalWrite(motorPin, LOW);
+    digitalWrite(musicPin, LOW);
+    while (distance < 80)
     {
       digitalWrite(ledPin, LOW);
     digitalWrite(motorPin, LOW);
