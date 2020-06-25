@@ -19,7 +19,8 @@ void loop()
         digitalWrite(motorPin, HIGH);
         delay(1500);
         digitalWrite(motorPin, LOW);
-        while (digitalRead(2) == LOW)
+        while (digitalRead(2) == HIGH
+)
         {
 
             digitalWrite(motorPin, LOW);
