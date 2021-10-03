@@ -1,5 +1,6 @@
 const int trigPin = 10;
 const int echoPin = 9;
+#define DelayBeforeDispense 50
 // defines variables
 long duration;
 int distance;
@@ -30,6 +31,7 @@ distance= duration*0.034/2;
 Serial.print("Distance: ");
 Serial.println(distance);
 if(distance<50)
+ delay(DelayBeforeDispense);
 {
   servosweep();
 }
